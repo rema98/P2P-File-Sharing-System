@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kavyagopal/MyProject/DOSP-Project-2/FirstIonideProject.fsproj": {}
+  },
+  "projects": {
+    "/Users/kavyagopal/MyProject/DOSP-Project-2/FirstIonideProject.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kavyagopal/MyProject/DOSP-Project-2/FirstIonideProject.fsproj",
+        "projectName": "FirstIonideProject",
+        "projectPath": "/Users/kavyagopal/MyProject/DOSP-Project-2/FirstIonideProject.fsproj",
+        "packagesPath": "/Users/kavyagopal/.nuget/packages/",
+        "outputPath": "/Users/kavyagopal/MyProject/DOSP-Project-2/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kavyagopal/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Akka.FSharp": {
+              "target": "Package",
+              "version": "[1.4.25, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
